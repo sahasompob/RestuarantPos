@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_paymentDialog"
+    android:layout_width="600dp"
+    android:layout_height="600dp"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/table_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0.5dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+    <Button
+        android:id="@+id/addTableButton"
+        style="@style/ButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/btn_green"
+        android:ems="10"
+        android:text="Add Table"
+        android:visibility="gone" />
+
+
+
+</RelativeLayout>

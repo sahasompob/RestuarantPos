@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBG">
+
+
+    <android.support.v7.widget.Toolbar
+
+        android:id="@+id/toolbar_top"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/colorBlack">
+
+
+            <ImageView
+                android:id="@+id/ic_app"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="left"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_shop" />
+
+            <TextView
+                android:id="@+id/title_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="left"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="2dp"
+                android:text="Pos Restuarant Test"
+                android:textColor="@color/colorWhite"
+                android:textSize="18dp" />
+
+
+
+
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="right"
+            android:layout_marginRight="45dp"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/ic_report"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:tint="@color/colorWhite"
+                android:src="@drawable/ic_report" />
+
+
+            <ImageView
+                android:id="@+id/ic_refresh"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:tint="@color/colorWhite"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/ic_action_refresh" />
+
+            <ImageView
+                android:id="@+id/ic_setting"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:tint="@color/colorWhite"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/ic_setting" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Messi"
+                android:textSize="17dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/colorWhite"
+                android:layout_gravity="right"
+                android:id="@+id/title_right" />
+
+
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:id="@+id/area_main"
+        android:layout_width="match_parent"
+        android:layout_height="660dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="66dp">
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

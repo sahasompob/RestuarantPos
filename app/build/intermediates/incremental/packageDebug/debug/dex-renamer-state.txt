@@ -1,0 +1,4 @@
+#Mon Jan 06 20:10:46 ICT 2020
+base.0=C\:\\Users\\ADMIN\\AndroidStudioProjects\\RestuarantPos\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\570
+path.0=classes.dex
+renamed.0=classes.dex

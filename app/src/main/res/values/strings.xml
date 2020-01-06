@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">POS</string>
+    <string name="action_settings">Settings</string>
+    <string name="total">Total</string>
+    <string name="barcode">Barcode</string>
+    <string name="cancel">Cancel</string>
+    <string name="clear">Clear</string>
+    <string name="edit">Edit</string>
+    <string name="confirm">Done</string>
+    <string name="update">Update</string>
+    <string name="save">Save</string>
+    <string name="date">Date</string>
+    <string name="date_added">Date Added</string>
+    <string name="quantity">Quantity</string>
+    <string name="remove">Remove</string>
+    <string name="scan">Scan</string>
+    <string name="unit_price">Price</string>
+    <string name="name">Name</string>
+    <string name="id">ID</string>
+    <string name="cash">Cash</string>
+    <string name="change">Change</string>
+    <string name="hint_search">Enter name or barcode</string>
+    <string name="hint_cash">Enter cash here</string>
+    <string name="add_new_product">Add New Product</string>
+    <string name="add_stock">Add A Product Lot</string>
+    <string name="previous">&lt;</string>
+    <string name="next">></string>
+    <string name="inventory">Inventory</string>
+    <string name="sale">Sale</string>
+    <string name="report">Report</string>
+
+    <string name="dialog_quit">Are you sure you want to QUIT?</string>
+    <string name="dialog_remove_product">Are you sure you want to REMOVE this product?</string>
+    <string name="dialog_clear_sale">Are you sure you want to CLEAR this sale?</string>
+    <string name="hint_empty_sale">Sale is empty.</string>
+    <string name="quit">Quit</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="product_detail">Product Detail</string>
+    <string name="stock">Stock</string>
+    <string name="success">Success</string>
+    <string name="fail">Fail</string>
+    <string name="please_input_all">Please fulfill all data.</string>
+    <string name="need_money">Need</string>
+    <string name="sale_page">Sale</string>
+    <string name="setting_page">Setting</string>
+    <string name="admin_page">Admin</string>
+    <string name="table_order_page">Table</string>
+    <string name="add_category_food">Add category food</string>
+    <string name="add_table">Add table</string>
+
+
+    <string name="report_page">Report</string>
+    <string name="report_page_sub">Check history of sale</string>
+    <string name="add_food_menu">Product</string>
+    <string name="add_food_menu_sub">Add food/category menu</string>
+    <string name="store">Store</string>
+    <string name="store_sub">Check inventory</string>C
+    <string name="user_management">User Management </string>
+    <string name="user_management_user">Management information user </string>
+    <string name="setting_page_sub">Change language of application</string>
+
+
+    <string name="member">Member</string>
+    <string name="table_list">Table</string>
+    <string name="open_quickly">Take Away</string>
+    <string name="detail_product">Product</string>
+    <string name="print">Print</string>
+
+    <string name="table_number">No.Table</string>
+    <string name="cashier_name">Cashier Name</string>
+    <string name="table_takeaway">No.Take Away </string>
+    <string name="setting">Setting</string>
+    <string name="all_menu">All Menu</string>
+
+
+    <string name="product">Product</string>
+    <string name="category">Category</string>
+    <string name="table">Table</string>
+
+
+    <string name="lang_en">English</string>
+    <string name="lang_th">ภาษาไทย (th)</string>
+    <string name="lang_jp">日本語 (jp)</string>
+    <string name="hint_lang">Please restart the application to apply this language settings.</string>
+
+
+    <string-array name="period">
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Yearly</item>
+    </string-array>
+
+    <style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_register">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_food">Food</string>
+    <string name="nav_category">Category of product</string>
+    <string name="nav_group_topping">Group of topping</string>
+    <string name="nav_no_topping">No topping</string>
+    <string name="nav_group_topping_add">Add Group of topping</string>
+
+    <string name="nav_topping">Topping</string>
+    <string name="nav_table">Table</string>
+
+
+    <string name="nav_report">Sales report</string>
+
+    <string name="nav_user">User</string>
+
+    <string name="nav_stock">Stock</string>
+
+    <string name="nav_language">Language</string>
+    <string name="nav_set_language">Set language</string>
+    <string name="nav_back_home">Back To SalePage</string>
+
+
+
+
+
+
+    <string name="image">Image</string>
+
+</resources>

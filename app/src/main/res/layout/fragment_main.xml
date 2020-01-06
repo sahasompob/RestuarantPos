@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBG"
+    tools:context=".ui.main.MainFragment">
+
+    <!-- TODO: Update sale layout -->
+    <LinearLayout
+        android:id="@+id/saleLayout"
+        android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="720dp"
+        android:background="@drawable/btn_white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/colorBG">
+
+            <include layout="@layout/button_top_menu_sale">
+
+            </include>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/tab_table_number"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:visibility="visible">
+
+            <include layout="@layout/tabbar_table_number">
+
+            </include>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:id="@+id/tab_sale_quickly"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:visibility="gone">
+            <include layout="@layout/tabbar_sale_quickly">
+
+            </include>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorBG">
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginTop="10sp"
+            android:layout_weight="1.53"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:baselineAligned="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TableRow
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="0.5"
+                    android:background="#FFFFFF"
+                    android:paddingBottom="1dip"
+                    android:paddingLeft="1dip"
+                    android:paddingTop="1dip" >
+
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="20dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2"
+                        android:background="#33B5E5"
+                        android:gravity="center"
+                        android:paddingRight="3dp"
+                        android:text="@string/name"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="0.2"
+                    android:background="#FFFFFF"
+                    android:paddingBottom="1dip"
+                    android:paddingLeft="1dip"
+                    android:paddingTop="1dip">
+
+                    <TextView
+                        android:id="@+id/quantity"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.5"
+                        android:background="#33B5E5"
+                        android:gravity="center"
+                        android:paddingRight="3dp"
+                        android:text="@string/quantity"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.2"
+                    android:background="#FFFFFF"
+                    android:paddingBottom="1dip"
+                    android:paddingLeft="1dip"
+                    android:paddingRight="1dip"
+                    android:paddingTop="1dip" >
+
+                    <TextView
+                        android:id="@+id/total"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="0.75"
+                        android:background="#33B5E5"
+                        android:gravity="center"
+                        android:paddingRight="3dp"
+                        android:textSize="12sp"
+                        android:text="@string/unit_price"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold" />
+                </TableRow>
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/sale_List"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </android.support.v7.widget.RecyclerView>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total"
+                android:textColor="@color/colorBlack"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/totalPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:gravity="right"
+                android:textSize="40sp" />
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorBG">
+            <include layout="@layout/button_menu_sale">
+
+            </include>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+    <!-- TODO: Update inventory layout -->
+
+    <LinearLayout
+        android:id="@+id/inventoryLayout"
+        android:orientation="vertical"
+        android:layout_width="905dp"
+        android:layout_height="680dp"
+
+        android:layout_alignParentTop="true"
+        android:background="@drawable/btn_white"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/saleLayout">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="109dp"
+            android:background="@color/colorWhite">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/category_cardview_id"
+                android:clickable="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_width="120dp"
+                android:layout_height="95dp"
+                xmlns:cardview="http://schemas.android.com/apk/res-auto"
+                cardview:cardCornerRadius="4dp">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/category_name"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:background="@drawable/btn_purple"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/all_menu"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/category_listview"
+                android:layout_width="700dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/category_cardview_id">
+
+            </android.support.v7.widget.RecyclerView>
+
+
+            <RelativeLayout
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:visibility="gone">
+
+
+                <Button
+                    android:id="@+id/setting_btn"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/btn_round"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:text="@string/setting" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_white">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorWhite"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/scanButton"
+                    style="@style/ButtonText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/btn_blue"
+                    android:visibility="gone"
+                    android:text="@string/scan" />
+
+                <EditText
+                    android:id="@+id/searchBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:textColor="@color/colorBlack"
+                    android:visibility="gone"
+                    android:hint="@string/hint_search" />
+
+
+
+            </LinearLayout>
+
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/productRecycleview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1">
+
+            </android.support.v7.widget.RecyclerView>
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textNoTable2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="15dp"
+        android:gravity="left"
+        android:text=""
+        android:visibility="gone"
+        android:textColor="@color/colorBlack"
+        android:textSize="25sp" />
+
+</RelativeLayout>

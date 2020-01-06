@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_sale"
+        android:title="@string/sale_page"
+        android:icon="@drawable/ic_store"
+        app:iconTint="@color/colorWhite"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/setting"
+        android:icon="@drawable/ic_setting"
+        app:iconTint="@color/colorWhite"
+        app:showAsAction="always" />
+
+
+</menu>

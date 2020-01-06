@@ -1,0 +1,4 @@
+#Thu Apr 04 10:23:43 ICT 2019
+base.0=C\:\\Users\\ADMIN\\Downloads\\RestuarantPos\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\556
+path.0=classes.dex
+renamed.0=classes.dex

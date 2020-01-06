@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/sale_page"
+        android:icon="@drawable/ic_sale"
+        android:title="@string/sale_page">
+
+    </item>
+
+    <item
+        android:id="@+id/setting_page"
+        android:icon="@drawable/ic_setting"
+        android:title="@string/setting_page">
+
+    </item>
+
+    <item
+        android:id="@+id/admin_page"
+        android:icon="@drawable/ic_store"
+        android:title="@string/admin_page">
+
+    </item>
+
+    <item
+        android:id="@+id/table_page"
+        android:icon="@drawable/ic_home"
+        android:title="@string/table_order_page">
+
+    </item>
+    <item
+
+        android:id="@+id/report_page"
+        android:icon="@drawable/ic_report"
+        android:title="@string/report_page">
+
+    </item>
+
+
+
+</menu>

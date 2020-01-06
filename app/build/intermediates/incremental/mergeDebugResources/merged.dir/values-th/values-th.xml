@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="period">
+        <item>รายวัน</item>
+        <item>รายอาทิตย์</item>
+        <item>รายเดือน</item>
+        <item>รายปี</item>
+    </string-array>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"นำทางไปหน้าแรก"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"นำทางขึ้น"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"ตัวเลือกอื่น"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"เสร็จสิ้น"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"ดูทั้งหมด"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"เลือกแอป"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ปิด"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"เปิด"</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"Space"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"เมนู+"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"ค้นหา…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"ล้างข้อความค้นหา"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"ข้อความค้นหา"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"ค้นหา"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"ส่งข้อความค้นหา"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"ค้นหาด้วยเสียง"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"แชร์กับ"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"แชร์ทาง <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"ยุบ"</string>
+    <string name="action_settings">ตั้งค่า</string>
+    <string name="add_food_menu">เพิ่มเมนูอาหาร/หมวดหมู่อาหาร</string>
+    <string name="add_food_menu_sub">เพิ่ม ลบ แก้ไข ข้อมูล เมนูอาหาร/หมวดหมู่อาหาร</string>
+    <string name="add_new_product">สร้างสินค้าใหม่</string>
+    <string name="add_stock">สร้างรายการสินค้นนำเข้า</string>
+    <string name="admin_page">ระบบหลังร้าน</string>
+    <string name="all_menu">เมนูทั้งหมด</string>
+    <string name="app_name">POS</string>
+    <string name="barcode">รหัสแท่ง</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="cash">เงินสด</string>
+    <string name="cashier_name">พนักงาน</string>
+    <string name="change">เงินทอน</string>
+    <string name="clear">ล้าง</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"เปิดใช้"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> จะไม่ทำงานจนกว่าคุณจะเปิดใช้บริการ Google Play"</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"เปิดใช้บริการ Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"ติดตั้ง"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> จะไม่ทำงานหากไม่มีบริการ Google Play ซี่งไม่มีในอุปกรณ์ของคุณ"</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"ติดตั้งบริการ Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"ความพร้อมใช้งานของบริการ Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"ข้อผิดพลาดของบริการ Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> มีปัญหาเกี่ยวกับบริการของ Google Play โปรดลองอีกครั้ง"</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> จะไม่ทำงานหากไม่มีบริการ Google Play ซึ่งอุปกรณ์ของคุณไม่สนับสนุน"</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"อัปเดต"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> จะไม่ทำงานจนกว่าคุณจะอัปเดตบริการ Google Play"</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"อัปเดตบริการ Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> จะไม่ทำงานหากไม่มีบริการ Google Play ซึ่งกำลังอัปเดตอยู่ในขณะนี้"</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"จำเป็นต้องใช้บริการ Google Play เวอร์ชันใหม่ ซึ่งจะอัปเดตอัตโนมัติในอีกไม่ช้า"</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"เปิดบนโทรศัพท์"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"ลงชื่อเข้าใช้"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"ลงชื่อเข้าใช้ด้วย Google"</string>
+    <string name="confirm">เสร็จสิ้น</string>
+    <string name="date">วันที่</string>
+    <string name="date_added">วันที่นำเข้า</string>
+    <string name="detail_product">รายละเอียดสินค้า</string>
+    <string name="dialog_clear_sale">ต้องการล้างการขายนี้หรือไม่?</string>
+    <string name="dialog_quit">คุณต้องการออกหรือไม่?</string>
+    <string name="dialog_remove_product">คุณต้องการลบสินค้าชิ้นนี้หรือไม่?</string>
+    <string name="edit">แก้ไข</string>
+    <string name="fail">ล้มเหลว</string>
+    <string name="hint_cash">กรอกเงิน</string>
+    <string name="hint_empty_sale">ไม่มีการขาย</string>
+    <string name="hint_lang">กรุณา ปิดและเปิดแอพลิเคชันใหม่ เพื่อการเปลี่ยนภาษาที่สมบูรณ์</string>
+    <string name="hint_search">ค้นหาสินค้า</string>
+    <string name="id">รหัส</string>
+    <string name="inventory">คลังสินค้า</string>
+    <string name="member">สมาชิก</string>
+    <string name="name">ชื่อ</string>
+    <string name="nav_about_us">About Us</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_movies">Movies</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_photos">Photos</string>
+    <string name="nav_settings">Settings</string>
+    <string name="need_money">ขาดเงินอีก</string>
+    <string name="next">></string>
+    <string name="no">ไม่</string>
+    <string name="open_quickly">เปิดโต๊ะด่วน</string>
+    <string name="please_input_all">กรุณากรอกข้อมูลให้ครบถ้วน</string>
+    <string name="previous">&lt;</string>
+    <string name="print">พิมพ์</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="product_detail">รายละเอียดสินค้า</string>
+    <string name="quantity">ปริมาณ</string>
+    <string name="quit">ออก</string>
+    <string name="remove">ลบ</string>
+    <string name="report">รายงานการขาย</string>
+    <string name="report_page">รายงานการขาย</string>
+    <string name="report_page_sub">ตรวจสอบประวัติการขาย</string>
+    <string name="sale">การขาย</string>
+    <string name="sale_page">หน้าขาย</string>
+    <string name="scan">กราด</string>
+    <string msgid="146198913615257606" name="search_menu_title">"ค้นหา"</string>
+    <string name="setting">ตั้งค่า</string>
+    <string name="setting_page">ตั่งค่า</string>
+    <string name="setting_page_sub">เปลี่ยนภาษา</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="stock">คลัง</string>
+    <string name="store">สินค้าคงคลัง</string>
+    <string name="store_sub">ตรวจสอบระบบสต๊อคสินค้า</string>
+    <string name="success">สำเร็จ</string>
+    <string name="table_list">ดูโต๊ะ</string>
+    <string name="table_number">เลขโต๊ะ</string>
+    <string name="table_order_page">โต๊ะ</string>
+    <string name="table_takeaway">สั่งกลับบ้าน</string>
+    <string name="total">ยอด</string>
+    <string name="unit_price">ราคา</string>
+    <string name="user_management">การจัดการพนักงาน</string>
+    <string name="user_management_user">จัดการข้อมูลของพนักงาน </string>
+    <string name="yes">ใช่</string>
+    <style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+</resources>
